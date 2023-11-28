@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department - University of Ghana</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+            background-color: #03284e;
+            color: #ffffff;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            height: 500px;
+        }
+
+        nav {
+            background-color: #03284e;
+            padding: 1%;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2em;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+        }
+
+        section a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden-text {
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            margin-top: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .text-visible {
+            opacity: 1;
+            max-height: 500px; /* Adjust the max-height as needed */
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .feature-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        #courseImage1 {
+            float: right;
+            width: 50%; /* Adjust the width as needed */
+            height: 50%; /* Maintain aspect ratio */
+}
+
+        #underGraduateImage{
+            float: right;
+            width: 50%;
+            height: 50%;
+        }
+
+        #mphil{
+            float:right;
+            width: 50%;
+            height: 50%;
+        }
+
+        #phdimage{
+            float: right;
+            width: 50%;
+            height: 50%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Computer Science Department</h1>
+        <p>University of Ghana</p>
+        <img src="https://admission.ug.edu.gh/applying/sites/default/files/pictures/under_grad_main.jpg" alt="A group of people">
+    </header>
+
+    <nav>
+        <a href="#shortCourses" onclick="toggleText('shortCoursesText')">Short Courses Offered</a>
+        <a href="#undergraduateProgrammes" onclick="toggleText('undergraduateProgrammesText')">Undergraduate Programmes</a>
+        <a href="#mphilAndMscProgrammes" onclick="toggleText('mphilAndMscProgrammesText')">MPhil and Msc Programmes</a>
+        <a href="#phdPrograms" onclick="toggleText('phdProgramsText')">PhD Programs</a>
+    </nav>
+
+    <section id="shortCourses" class="feature-box" onclick="toggleText('shortCoursesText')">
+        <div class="container">
+            <h2><a href="#shortCourses">Short Courses Offered</a></h2>
+            <div id="shortCoursesText" class="hidden-text">
+                <p><ul><li>Introduction to Web Programming <br></li>
+                <li>Information Security and Ethical Hacking <br></li>
+                <li>Mobile Application Development <br></li>
+                <li>Computer Networks Fundamental </p></li></ul>
+                <img id="courseImage1" src="https://images.pexels.com/photos/6457546/pexels-photo-6457546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Busy woman holding laptop">
+            </div>
+        </div>
+    </section>
+
+    <section id="undergraduateProgrammes" class="feature-box" onclick="toggleText('undergraduateProgrammesText')">
+        <div class="container">
+            <h2><a href="#undergraduateProgrammes">Undergraduate Programmes</a></h2>
+            <div id="undergraduateProgrammesText" class="hidden-text">
+                <img id="underGraduateImage" src="https://media.istockphoto.com/id/1351445530/photo/african-student-sitting-in-classroom.jpg?s=612x612&w=0&k=20&c=1ICaZ03iFLzDmxfBkfDkmBGSgj1SDEpsM3eSDgB1KBk=" alt="Boy smiling">
+                <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</br>
+                </br>
+                To qualify for admission into Computer Science programmes at Level 200, candidates must have taken the following courses at Level 100:</br>
+                </br>
+                MATH 121: Algebra and Trigonometry </br>
+                MATH 122: Calculus I CSCD 101: Introduction to Computer Science I </br>
+                CSCD 102: Introduction to Computer Science II </br>
+                </br>
+                Every student in the Department of Computer Science must own his or her laptop with minimum specification of: </br>
+                </br>
+                i3 64-bit Processor </br>
+                8GB RAM </br>
+                500GB HD or 256 SSD </br></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mphilAndMscProgrammes" class="feature-box" onclick="toggleText('mphilAndMscProgrammesText')">
+        <div class="container">
+            <h2><a href="#mphilAndMscProgrammes">MPhil and MSc Programmes</a></h2>
+            <div id="mphilAndMscProgrammesText" class="hidden-text">
+                <p>The Department of Computer Science University of Ghana currently runs Masters of Science (MSc.) in Computer Science and Master of Philosophy (MPhil.) in Computer Science.</p>
+                <p>The MSc. is a 1-year (weekend/evening) programme with a capstone project while the MPhil is a 2-year (full-time) programme. The first year of the MPhil is taught course and second year is research and dissertation. Both programmes are accelerated programmes specially designed to train current and future computer scientist who are available for full-time or part-time study.</p>
+                <p>Students enrolled in these programmes are equipped with broader knowledge in theoretical computer science and advance technical skills to approach science in technology as a disruptive force to manage complex problems of the global society.</p>
+            <img id="mphil" src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/Pictures/web/x/c/w/students_studying_in_library.jpg?itok=iT-k08Vg" alt="Black students">
+        </div>
+    </section>
+
+    <section id="phdPrograms" class="feature-box" onclick="toggleText('phdProgramsText')">
+        <div class="container">
+            <h2><a href="#phdPrograms">PhD Programs</a></h2>
+            <div id="phdProgramsText" class="hidden-text">
+                <p>Our doctoral programme is a full-time research programme with expected duration of 4-years. For the successful completion of this programme, a high level of commitment is required.</p>
+                <p>Students are therefore expected to reside close to the University and be a full-time participant in the program. With guidance from postgraduate committee, Ph.D. students will create a personalized program of study that includes a major area of specialization and at least two minor areas of specialization.</p>
+                <p>In addition to coursework, the department holds regular seminars where students and faculty review and critique research in the field. To foster prudent critique, students are expected to join at most one research lab and participate in research activities carried out by the group. The research areas of the department are Intelligent Space and Machine Learning, Data Science/Big Data Analytics, Networking and Communications Engineering, and Cyber Security. </p>
+            <img id="phdimage" src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-black_student.jpg?itok=vJJCjV5Z" alt="Man with laptop.">
+        </div>
+    </section>
+</br>
+</br>
+</br>
+</br>
+
+    <footer>
+        <p>&copy; 2023 Computer Science Department - University of Ghana</p>
+    </footer>
+
+    <script>
+        function toggleText(sectionId) {
+            var sectionText = document.getElementById(sectionId);
+            sectionText.classList.toggle('text-visible');
+        }
+    </script>
+
+</body>
+</html>
