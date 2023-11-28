@@ -28,9 +28,10 @@ Using CSS, HTML and JavaScript.
 
 The about page simply consists of a few sections in containers that give information about the department. I used dividers to separate the content.
 For my footer, I added contact information and links to social media profiles using lists both ordered and unordered. 
-![Screenshot (22)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/98ad4688-f375-44b5-ad93-4af840250e1b)![Screenshot (25)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/16ecf671-bc1e-4f12-b1f3-c5de8df85ce7)
-![Screenshot (24)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/2a41c488-3cc4-41a9-8386-12120840b472)
-![Screenshot (23)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/c2c9ae8e-d78a-4853-a1a1-f88ada88e41c)
+![Screenshot (31)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/683e6d16-f2aa-464d-b75d-32c07938f94a)
+![Screenshot (30)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/8445c9d2-b961-4b14-8e39-e6480460ba2b)
+![Screenshot (29)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/63c5df1e-4119-4ee5-a938-bacdca5dd03d)
+
 
 
 
