@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internship and Job Opportunities - Computer Science Department</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .opportunity {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+
+        .apply-now {
+            color: #1f4771;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Internship and Job Opportunities</h1>
+
+    <section>
+        <div class="opportunity">
+            <h2>Software Developer Intern</h2>
+            <p>We are looking for innovative and dedicated developers to join our internship program. Know what it is like to apply classroom knowledge in the real world!</p>
+            <a href="#" class="apply-now">Apply Now</a>
+        </div>
+
+        <div class="opportunity">
+            <h2>Data Science Internship</h2>
+            <p>We are looking for Data Scientist Interns. See what it is like to apply your academic knowledge in the real world.</p>
+            <a href="#" class="apply-now">Apply Now</a>
+        </div>
+
+    </section>
+
+    <script>
+        function toggleDetails(element) {
+            var details = element.getElementsByTagName('p')[0];
+            
+            if (details.style.display === 'none' || details.style.display === '') {
+                details.style.display = 'block';
+            } else {
+                details.style.display = 'none';
+            }
+        }
+    </script>
+
+<footer style="background-color: #343a40; color: #ffffff; padding: 2em; text-align: center;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+
+        
+        <div style="margin-bottom: 1em;">
+            <h3 style="color: #007bff;">Contact Us</h3>
+            <p>Email: info@csdepartment.ug.edu.gh</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+
+       
+        <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1em;">
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Facebook</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Twitter</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">LinkedIn</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Instagram</a>
+        </div>
+
+       
+        <div style="margin-bottom: 1em;">
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1em;">
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Terms of Service</a></li>
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a></li>
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+            </ul>
+        </div>
+
+        
+        <p>&copy; 2023 Computer Science Department - University of Ghana</p>
+
+    </div>
+</footer>
+
+</body>
+</html>
