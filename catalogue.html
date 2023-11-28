@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Catalogue - Computer Science Department</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .course-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .course-item {
+            background-color: #ffffff;
+            border: 1px solid #2e2323;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .course-item:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            color: #226476;
+        }
+
+        p {
+            line-height: 1.6;
+            display: none; 
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: absolute;    
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+            background-color: #e0e4e8;
+            color: #ffffff;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://img.freepik.com/free-photo/blank-screen-open-laptop-wooden-desk-library_23-2147956641.jpg?w=740&t=st=1701181097~exp=1701181697~hmac=ddf173cb6d8cf17a88e392374a22e3b7a1c9206165efcd3680b07a5df4c84031" alt="Books and a Laptop">
+    </header>
+    <section>
+        <h2>Catalogue </h2>
+        <ul class="course-list">
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Programming I</h2>
+                <p><strong>Code:</strong> DCIT201</p>
+                <p><strong> Period of Study:</strong> First semester </p>
+            </li>
+
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Digital and Logic Systems Design</h2>
+                <p><strong>Code:</strong> DCIT 203</p>
+                <p><strong> Period of Study:</strong> First semester </p>
+            </li>
+
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Multi Media and Web Design</h2>
+                <p><strong>Code:</strong> DCIT 205</p>
+                <p><strong> Period of Study:</strong> First semester </p>
+            </li>
+
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Computer Architecture & Organisation</h2>
+                <p><strong>Code:</strong> DCIT 207</p>
+                <p><strong> Period of Study:</strong> First semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Mobile Application Development</h2>
+                <p><strong> Period of Study:</strong> Second semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Data Structures & Algorithm I</h2>
+                <p><strong>Code:</strong> DCIT 204</p>
+                <p><strong> Period of Study:</strong> Second semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Systems Administration</h2>
+                <p><strong>Code:</strong> DCIT206</p>
+                <p><strong> Period of Study:</strong> Second semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Software Engineering</h2>
+                <p><strong>Code:</strong> DCIT208</p>
+                <p><strong> Period of Study:</strong> Second semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Numerical and Computational Methods</h2>
+                <p><strong>Code:</strong> DCIT 212	</p>
+                <p><strong> Period of Study:</strong> Second semester </p>
+            </li>
+            
+            <li class="course-item" onclick="toggleDetails(this)">
+                <h2>Operating Systems</h2>
+                <p><strong>Code:</strong> DCIT 301</p>
+                <strong> Period of Study:</strong> Second semester </p>
+            </li>
+            </ul>
+
+        </ul>
+    </section>
+
+    <script>
+        function toggleDetails(element) {
+            var details = element.getElementsByTagName('p');
+            for (var i = 0; i < details.length; i++) {
+                details[i].style.display = (details[i].style.display === 'none' || details[i].style.display === '') ? 'block' : 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
