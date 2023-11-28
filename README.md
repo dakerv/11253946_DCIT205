@@ -52,3 +52,7 @@ My staff spotlight page is virtually identical to the student showcase, only wit
 ![Screenshot (15)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/9a442187-c914-4780-b819-83ec9fff9ceb)
 ![Screenshot (14)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/0b854913-d2f0-4b72-8541-71ac29ccc35e)
 ![Screenshot (13)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/59a247ec-4bb1-4220-b25a-bfd01f7207cb)
+
+**CATALOGUE** </br>
+The catalogue of this website shows a few of the courses offered at the computer science department in year two. For this page, I decided to use my JavaScript. I hid the content from the user at first sit by using list-style-type: none;. Then using JavaScript, with "onclick", the user gets the list beneath each subject after clicking. I listed every item under the subject in an bulleted points inside an unordered list. Then, I cloned my footer from previous page, and most of my CSS.
+
