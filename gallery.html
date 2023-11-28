@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Computer Science Department</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 16px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="https://th.bing.com/th/id/R.ab1fbe5c684c890541313b1b1925a4aa?rik=kuOGHxOzb1rYow&pid=ImgRaw&r=0" alt="Image 1">
+        <img src="https://th.bing.com/th/id/R.ce04029d1d9744f5c403150a7b1a67f1?rik=GORAyAlZ4bT1WQ&pid=ImgRaw&r=0" alt="Image 2">
+        <img src="https://th.bing.com/th/id/R.a231933aada72ff59e98adaa9df6315d?rik=IwRGFwniEdMpYw&riu=http%3a%2f%2fuew.edu.gh%2fsites%2fdefault%2ffiles%2fStoryImages%2fphoto_2017-08-07_12-12-00.jpg&ehk=9T14NLN93fZUTH3ssQDMewvGOs2I6l3xXfa4D8eCuWA%3d&risl=&pid=ImgRaw&r=0" alt="Image 3">
+    </div>
+
+</body>
+</html>
