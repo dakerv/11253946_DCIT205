@@ -1,28 +1,33 @@
 # DCIT_205_IA
 **INTRODUCTION** </br>
 My name is Vanessa Elinam Daker, an IT student of the university of Ghana.
-Student ID: 11253946
-The purpose of this website is to facilitate easy access to information for currents and prospective students within the computer science department.
-Information for prospective students, concerning what is their areas of study over the duration of their degree program, what is expected of them, resources, events among others.
-The website also allows students to know and interact with the relevant people to help them with problems they may face.
-(Staff Profiles)
+</br>
+
+**Student ID:** 11253946
+</br>
+
+The purpose of this website is to facilitate easy access to information for current and prospective students within the computer science department.
+Information for prospective students, concerning what will be their areas of study over the duration of their degree program, what is expected of them, resources, events among others. The website also allows students to know be familiar with their department heads and seniors. (Staff Profiles)
 
 **THE PROCESS** </br>
-I rebuilt the website from scratch, using a different design. I envisioned something simple but attractive and interactive enough.
-Using CSS, HTML and JavaScript.
+
+I rebuilt the website from scratch, using a different design. I envisioned something simple but attractive and interactive enough,
+using CSS, HTML and JavaScript. I did take some of the information from the official site, however, it was text only.
 
 **HOME PAGE** </br>
+
  I created a header with an image. And then, I made some navigation bars that take the user to the relevant text when clicked, using Javascript. The text has a fade-in animation. 
  I also added relevant images in each of the sections, and then used the <a><href> elements and attributes respectivily to guide the user.
 
-![Screenshot (7)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/43edd338-b327-4545-a049-5028f067e813)
-![Screenshot (6)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/32bdc8fd-a802-48b7-87f3-e784f7cf8908)
-![Screenshot (5)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/7d14f011-d138-4873-b2b4-6ae6105d665c)
-![Screenshot (4)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/0d125c47-2764-4c09-907e-bc2513b9e69c)
-![Screenshot (3)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/ed5afde7-1983-49e6-8bf0-be389b367823)
+![Screenshot (3)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/0322d360-935d-4996-9dfe-17c714195805)
+![Screenshot (4)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/187fdf37-5538-41c9-8e5f-f1bba74a9bc2)
+![Screenshot (5)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/62522c08-67cb-4d2b-b8ef-842e9b4e20b6)
+![Screenshot (6)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/14b2d9d0-0b83-44f4-8e81-f940cba23d9f)
+![Screenshot (7)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/aee3eeba-7350-46a8-bc99-8f5459f87b65)
 
 
- 
+
+
 
 **ABOUT PAGE**</br>
 
@@ -71,6 +76,12 @@ The catalogue of this website shows a few of the courses offered at the computer
 ![Screenshot (18)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/6501a14f-e3af-460e-b333-407684d52d72)![Screenshot (21)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/24d2e7b4-4b77-42ce-95f0-2578bacd27b9)
 ![Screenshot (20)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/98cfafd5-cb61-48d1-a840-830cda6825e4)
 ![Screenshot (19)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/c7f205c3-3909-4a04-aea6-746614396db6)
+
+**Announcements**
+
+**Gallery**
+
+**Contact Us**
 
 
 
