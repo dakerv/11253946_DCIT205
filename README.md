@@ -36,8 +36,19 @@ Each of my resource cards came with the same padding of 20px to define the space
 For my HTML, I made sections and used dividers, along with classes. This was to provide adequate spacing. My classes "resource-card" was to create a consistent visual style for each of the cards.
 
 **STUDENT'S SHOWCASE**
+
 The purpose of this webpage is to display projects done by current and past students of the department. I put three of the [best] works on display.
 
 I started out with my usual CSS code, that I have been using for most of my pages so far. Then, I used project cards, with project images within each card. I then created a header and some selecters to edit the header message.
 
 Then I proceeded to add all the information inside the cards. I finished the page off with my usual footer.
+
+**STAFF SPOTLIGHT**
+The purpose of the webpage is to showcase the faculty of the computer science department, along with their positions.  
+
+My staff spotlight page is virtually identical to the student showcase, only with different colour grading. I used "staff cards" whose design were very similar to the project card design of the previous page. In them, I linked images of all the lecturers easily available on the internet. And then, I added my usual footer.
+![Screenshot (17)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/f4ccf414-da42-4982-84c8-e62aa6be32e2)
+![Screenshot (16)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/e6044106-6e0c-40bc-b828-9f850a0368d6)
+![Screenshot (15)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/9a442187-c914-4780-b819-83ec9fff9ceb)
+![Screenshot (14)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/0b854913-d2f0-4b72-8541-71ac29ccc35e)
+![Screenshot (13)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/59a247ec-4bb1-4220-b25a-bfd01f7207cb)
