@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News and Announcements - Computer Science Department</title>
+    <style>
+        body {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        section {
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .news-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            width: calc(33.333% - 30px);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .news-item:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+
+.news-item:hover {
+    transform: scale(1.05);
+    overflow: visible;
+}
+
+
+        .news-image {
+            width: 100%;
+            height: auto;
+            filter: brightness(30%);
+        }
+
+        .read-more {
+            color: #1f4771;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Announcements </h1>
+
+    <section>
+    </br>
+
+</br>
+</br>
+        <div class="news-item" onclick="toggleDetails(this)">
+            <img class="news-image" src="https://www.tdsb.on.ca/portals/0/aboutus/equity/img/Black_Awards_2019_3.jpg" alt="News Image">
+            <h2>Department Wins First Place in International Robotics Competition </h2>
+            <p>Five students of the Computer Science Department partook in the recently ended World Robotics Championship. Their determination and innovation won them the first place against tech giants such as China and the United States!</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="news-item" onclick="toggleDetails(this)">
+            <img class="news-image" src="https://th.bing.com/th/id/R.f06656ef75a987144580c9fb57b84af4?rik=KBLbN7xZSGOjzw&pid=ImgRaw&r=0&sres=1&sresct=1" alt="News Image">
+            <h2>New Department Building </h2>
+            <p>The department is excited to announce the completion of the new computer library. The library contains a whooping total of a hundred computers, all which are accessible to students all day from 6:00am till 8:30pm. </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="news-item" onclick="toggleDetails(this)">
+            <img class="news-image" src="https://thumbs.dreamstime.com/b/college-student-holding-laptop-portrait-young-african-american-56056347.jpg" alt="News Image">
+            <h2>Hackathon-2023 </h2>
+            <p> The annual hackathon of the Computer Science department kicks off today! The tournamet will span over the course of three days. All students, Computer Science students or not are all invited to take part. There are exciting prizes to be won!</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="news-item" onclick="toggleDetails(this)">
+            <img class="news-image" src="https://yourchosenchurch.com/wp-content/uploads/2019/04/youths.jpg" alt="News Image">
+            <h2>Homecoming 2023 </h2>
+            <p>The department is excited to welcome all alumni to our 2023 edition of the annual Homecoming! This is an opportunity you do not want to miss. Meet with aluminis from as far back at the 1900s. Network and make new connections. NB: Item 13 will be provided. </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+     
+
+    </section>
+
+    <script>
+        function toggleDetails(element) {
+            var details = element.getElementsByTagName('p')[0];
+            var readMoreLink = element.querySelector('.read-more');
+            
+            if (details.style.display === 'none' || details.style.display === '') {
+                details.style.display = 'block';
+                readMoreLink.textContent = 'Read Less';
+            } else {
+                details.style.display = 'none';
+                readMoreLink.textContent = 'Read More';
+            }
+        }
+    </script>
+
+<footer style="background-color: #343a40; color: #ffffff; padding: 2em; text-align: center;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+
+        
+        <div style="margin-bottom: 1em;">
+            <h3 style="color: #007bff;">Contact Us</h3>
+            <p>Email: info@csdepartment.ug.edu.gh</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+
+       
+        <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1em;">
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Facebook</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Twitter</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">LinkedIn</a>
+            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Instagram</a>
+        </div>
+
+       
+        <div style="margin-bottom: 1em;">
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1em;">
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Terms of Service</a></li>
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a></li>
+                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+            </ul>
+        </div>
+
+        
+        <p>&copy; 2023 Computer Science Department - University of Ghana</p>
+
+    </div>
+</footer>
+
+</body>
+</html>
