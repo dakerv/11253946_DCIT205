@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Computer Science Department</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+            background-color: #043160;
+            color: #ffffff;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            height: 200px;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 1%;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            color: #0056b3;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 2em;
+            text-align: left;
+            animation: floatIn 1s ease-out; /* Float-in animation */
+        }
+
+        .feature-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @keyframes floatIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #043160;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+        }
+
+        .resource-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .resource-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .resource-card h3 {
+            color: #043160
+            margin-bottom: 10px;
+        }
+
+        .resource-card p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://th.bing.com/th/id/R.3ffd37dbb96680b548f50aa20cc23ce1?rik=t5e892WC54DbGw&riu=http%3a%2f%2fvolunteerrutherford.com%2fwp-content%2fuploads%2f2016%2f02%2fmoocs_computer-and-books.jpg&ehk=gCrhMRyHR0vhuC9ilG9rmkZzpPIWjP%2bxSWRSjLFtfis%3d&risl=&pid=ImgRaw&r=0" alt="Header Image" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(70%);">
+    </header>
+
+    <section id="resources" class="feature-box">
+        <div class="container">
+            <h2>Resources</h2>
+            <div class="resource-container">
+                <div class="resource-card">
+                    <h3>Programming Guides</h3>
+                    <p>Resources for students to sharpen their skills. </p>
+                </div>
+                <div class="resource-card">
+                    <h3>Research Papers</h3>
+                    <p>Access cutting-edge research papers in the field of computer science and technology.</p>
+                </div>
+                <div class="resource-card">
+                    <h3>Online Courses</h3>
+                    <p>Enroll in online courses to enhance your skills and stay updated with the latest technologies.</p>
+                </div>
+                <div class="resource-card">
+                    <h3>Coding challenges</h3>
+                    <p>Sharpen your skills with our collection of coding challenges!</p>
+                </div>
+            </div>
+    </section>
+
+   
+    <footer style="background-color: #343a40; color: #ffffff; padding: 2em; text-align: center;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+
+            
+            <div style="margin-bottom: 1em;">
+                <h3 style="color: #007bff;">Contact Us</h3>
+                <p>Email: info@csdepartment.ug.edu.gh</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+
+           
+            <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1em;">
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Facebook</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Twitter</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">LinkedIn</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Instagram</a>
+            </div>
+
+           
+            <div style="margin-bottom: 1em;">
+                <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1em;">
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Terms of Service</a></li>
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+                </ul>
+            </div>
+
+            
+            <p>&copy; 2023 Computer Science Department - University of Ghana</p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
