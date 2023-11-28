@@ -71,7 +71,7 @@ The catalogue of this website shows a few of the courses offered at the computer
 ![Screenshot (46)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/bdebd6f6-492f-469f-88d2-a573656f09ba)
 ![Screenshot (47)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/5970c97e-a2fe-4290-85a2-ab21bf64b127)
 ![Screenshot (48)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/8b761bd8-e61a-4748-b06a-3820760ed801)
-(https://github.com/dakerv/11253946_DCIT205/assets/152215153/6777beca-fd47-4010-b575-ae719e53637b)![Screenshot (49)]
+![Screenshot (49)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/6777beca-fd47-4010-b575-ae719e53637b)
 
 
 
