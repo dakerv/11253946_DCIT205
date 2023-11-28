@@ -88,8 +88,15 @@ My staff spotlight page is virtually identical to the student showcase, only wit
 ![Screenshot (16)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/e6044106-6e0c-40bc-b828-9f850a0368d6)
 ![Screenshot (17)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/f4ccf414-da42-4982-84c8-e62aa6be32e2)
 
+</br>
 
+**INTERNSHIPS AND JOB OPPORTUNITIES** </br>
+This websites shows students and graduates what opportunities they have for employment and internships. It is made with simple CSS and HTML. CSS for borders, margins, sections and the body. HTML to fill in information using the division tag. There is a bit of JavaScript in there with the "Apply Now" button, however it does not lead anywhere. Yet. But if this were a launched website, it would certainly lead to those job opportunities.
 
+![Screenshot (56)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/c1d76de1-2886-463c-94f0-5d8020fdbe47)
+![Screenshot (57)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/c69bf3bf-a3ab-40e4-8fd7-0cd6e31598c7)
+
+</br>
 
 </br>
 
@@ -122,6 +129,8 @@ For my footer, I added contact information and links to social media profiles us
 ![Screenshot (29)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/63c5df1e-4119-4ee5-a938-bacdca5dd03d)
 ![Screenshot (30)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/8445c9d2-b961-4b14-8e39-e6480460ba2b)
 ![Screenshot (31)](https://github.com/dakerv/11253946_DCIT205/assets/152215153/683e6d16-f2aa-464d-b75d-32c07938f94a)
+
+This project has been very challenging for me. Although I consider myself a good programmer, petty mistakes made it so hard to not get frustrated and just rage-quit. However, I am a better programmer for it. Adding images to headers was a huge obstacle for me, but after working relentlessly, I have managed to get the hang of it. Also, this project had helped me learn how to use git better. Well, gitHub, to be honest. It is much less complicated; just like using a normal website. I also finally understand repositories, commits, and pull requests. It was so difficult for me to get my pull request up, so much so that it delayed my work, but now? I even help people when they ask. So all in all, although this project has been tasking, it has been very fun and educative. 
 
 
 
