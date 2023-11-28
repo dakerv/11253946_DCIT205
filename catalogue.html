@@ -42,17 +42,10 @@
             color: #226476;
         }
 
-        p {
-    line-height: 1.6;
-    overflow: hidden; 
-}
-
-.news-item:hover {
+      .course-item:hover {
     transform: scale(1.05);
     overflow: visible;
 }
-
-
         img {
             width: 100%;
             height: 100%;
@@ -79,60 +72,60 @@
     <section>
         <h2> Catalogue </h2>
         <ul class="course-list">
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Programming I</h2>
                 <p><strong>Code:</strong> DCIT201</p>
                 <p><strong> Period of Study:</strong> First semester </p>
             </li>
 
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item" >
                 <h2>Digital and Logic Systems Design</h2>
                 <p><strong>Code:</strong> DCIT 203</p>
                 <p><strong> Period of Study:</strong> First semester </p>
             </li>
 
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Multi Media and Web Design</h2>
                 <p><strong>Code:</strong> DCIT 205</p>
                 <p><strong> Period of Study:</strong> First semester </p>
             </li>
 
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Computer Architecture & Organisation</h2>
                 <p><strong>Code:</strong> DCIT 207</p>
                 <p><strong> Period of Study:</strong> First semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Mobile Application Development</h2>
                 <p><strong> Period of Study:</strong> Second semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Data Structures & Algorithm I</h2>
                 <p><strong>Code:</strong> DCIT 204</p>
                 <p><strong> Period of Study:</strong> Second semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Systems Administration</h2>
                 <p><strong>Code:</strong> DCIT206</p>
                 <p><strong> Period of Study:</strong> Second semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Software Engineering</h2>
                 <p><strong>Code:</strong> DCIT208</p>
                 <p><strong> Period of Study:</strong> Second semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Numerical and Computational Methods</h2>
                 <p><strong>Code:</strong> DCIT 212	</p>
                 <p><strong> Period of Study:</strong> Second semester </p>
             </li>
             
-            <li class="course-item" onclick="toggleDetails(this)">
+            <li class="course-item">
                 <h2>Operating Systems</h2>
                 <p><strong>Code:</strong> DCIT 301</p>
                 <p><strong> Period of Study:</strong> Second semester </p>
@@ -142,46 +135,41 @@
         </ul>
     </section>
 
-    <script>
-        function toggleDetails(element) {
-            var details = element.getElementsByTagName('p');
-            for (var i = 0; i < details.length; i++) {
-                details[i].style.display = (details[i].style.display === 'none' || details[i].style.display === '') ? 'block' : 'none';
-            }
-        }
-    </script>
 
 
-<footer style="background-color: #343a40; color: #ffffff; padding: 2em; text-align: center;">
-    <div style="display: flex; flex-direction: column; align-items: center;"></div>
 
-        
-        <div style="margin-bottom: 1em;">
-            <h3 style="color: #007bff;">Contact Us</h3>
+    <footer style="background-color: #343a40; color: #ffffff; padding: 2em; text-align: center;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+
+            
+            <div style="margin-bottom: 1em;">
+                <h3 style="color: #007bff;">Contact Us</h3>
+                <p>Email: info@csdepartment.ug.edu.gh</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+
+           
+            <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1em;">
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Facebook</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Twitter</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">LinkedIn</a>
+                <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Instagram</a>
+            </div>
+
+           
+            <div style="margin-bottom: 1em;">
+                <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1em;">
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Terms of Service</a></li>
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+                </ul>
+            </div>
+
+            
+            <p>&copy; 2023 Computer Science Department - University of Ghana</p>
+
         </div>
-
-       
-        <div style="display: flex; justify-content: center; gap: 1em; margin-bottom: 1em;">
-            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Facebook</a>
-            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Twitter</a>
-            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">LinkedIn</a>
-            <a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Instagram</a>
-        </div>
-
-       
-        <div style="margin-bottom: 1em;">
-            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1em;">
-                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Terms of Service</a></li>
-                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">Privacy Policy</a></li>
-                <li><a href="#" style="color: #ffffff; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
-            </ul>
-        </div>
-
-        <div>
-        <p>&copy; 2023 Computer Science Department - University of Ghana</p>
-
-    </div>
-</footer>
+    </footer>
 
 </body>
 </html>
